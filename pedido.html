@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/reset.css">
+  </head>
+  <body>
+    <nav>
+      <ul id="top-nav">
+          <li> 
+              <a href="./home.html" target="_blank"> Home</a>
+           </li>
+          <li>
+              <a href="./cardapio.html" target="_blank"> Cardápio</a>
+          </li>
+          <li>
+              <a href="./contato.html" target="_blank"> Contato</a>
+          </li>
+          <li>
+              <a href="./pedido.html" target="_blank"> Pedido</a>
+          </li>
+      </ul>
+   </nav>
+    <h1>Faça aqui o seu pedido</h1>
+    <form>
+      <label for="name">Nome</label>
+      <input type="text" name="name" />
+      <br />
+      <label for="phone">Telefone</label>
+      <input type="tel" name="telefone" />
+      <br />
+      <label for="address">Endereço de entrega</label>
+      <input type="text" name="addres" />
+      <br />
+      <label for="massa">Tipo da massa:</label>
+      <br />
+      <input type="radio" name="massa" id="massa-fina" />
+      <label for="massa">Massa Fina</label><br />
+      <input type="radio" name="massa" id="massa-tradicional" />
+      <label for="massa">Massa Tradicional</label>
+      <br />
+      <label for="sabor"> Selecione o Sabor:</label>
+      <select name="sabor" id="sabor">
+        <option value="">Selecione o sabor</option>
+        <option value="5-queijos">5 Queijos</option>
+        <option value="marguerita">Marguerita</option>
+        <option value="peperoni">Pepperoni</option>
+      </select>
+      <br />
+      <label for="tamanho"> Selecione o Tamanho:</label>
+
+      <select name="tamanho" id="tamanho">
+        <option value="">Selecione o tamanho</option>
+        <option value="p">Pequena</option>
+        <option value="m">Média</option>
+        <option value="g">Grande</option>
+      </select>
+      <br />
+      <label for="bebida"> Bebida:</label>
+      <br />
+      <input type="checkbox" name="bebida" id="agua-com-gas" />
+      <label for="bebida">Água com gás</label>
+      <select name="quantidade" id="quantidade">
+        <option value="">Quantidade</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+      </select>
+      <br />
+  
+      <input type="checkbox" name="bebida" id="agua-sem-gas" />
+      <label for="bebida">Água sem gás</label>
+       <select name="quantidade" id="quantidade">
+        <option value="">Quantidade</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+      </select>
+      <br />
+      <input type="checkbox" name="bebida" id="refrigerante-em-lata" />
+      <label for="bebida">Refrigerante-em-lata</label>
+       <select name="quantidade" id="quantidade">
+        <option value="">Quantidade</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+      </select>
+      <br />
+      <input type="checkbox" name="bebida" id="suco-natural-em-copo" />
+      <label for="bebida">Suco natural em copo</label>
+       <select name="quantidade" id="quantidade">
+        <option value="">Quantidade</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+      </select>
+      <br />
+      <input type="checkbox" name="bebida" id="suco-natural-em-jarra" />
+      <label for="bebida">Suco Natural em jara</label>
+       <select name="quantidade" id="quantidade">
+        <option value="">Quantidade</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="3">03</option>
+      </select>
+    </form>
+  </body>
+</html>

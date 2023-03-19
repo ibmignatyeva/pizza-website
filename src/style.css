@@ -1,0 +1,29 @@
+:root{
+ --background-color: #7a383d;
+ --table-border:1px solid #be121d;
+}
+html{
+   background-color:var(--background-color);
+    font-size:62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+table,td,th{
+   border:var(--table-border);
+    border-collapse: collapse;                                             
+}
+
+
+#top-nav li a{
+text-decoration: none;
+justify-content:space-evenly;
+   
+}
+
+.pizza img, 
+.bebidas img{
+    height:5rem;
+    width:5rem;
+  
+}
