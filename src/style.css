@@ -1,29 +1,81 @@
-:root{
- --background-color: #7a383d;
- --table-border:1px solid #be121d;
-}
-html{
-   background-color:var(--background-color);
-    font-size:62.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
-}
-
-table,td,th{
-   border:var(--table-border);
-    border-collapse: collapse;                                             
+:root {
+  --background-color: #cbdaca;
+  --table-border: 1px solid #f94a29;
+  --menu-border: 1px solid #ffff;
+  --main-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --secondary-color: #30e3df;
+  --tertiary-color: #fce22a;
+  --main-color: #d61355;
+  --main-font-color: #ffff;
 }
 
-
-#top-nav li a{
-text-decoration: none;
-justify-content:space-evenly;
-   
+html {
+  font-family: var(--main-font-family);
+  text-align: center;
+  margin: 10px auto;
 }
 
-.pizza img, 
-.bebidas img{
-    height:5rem;
-    width:5rem;
-  
+table,
+td,
+th {
+  border: var(--table-border);
+  border-collapse: collapse;
+}
+
+footer a {
+  padding: 10px;
+  text-decoration: none;
+}
+footer,
+#top-nav,
+#top-nav a {
+  background-color: var(--main-color);
+  color: var(--main-font-color);
+}
+#top-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#top-nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pizza img,
+.bebidas img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.column .first-about {
+  float: left;
+}
+.column .second-about {
+  float: right;
+}
+.row {
+  display: flex;
+}
+.first-about,
+.second-about {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.main-page-figures img {
+  border-radius: 20px;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.pizza-name {
+  font-size: 35px;
+  margin: 40px;
+}
+
+.main-about {
+  margin: 20px;
 }
