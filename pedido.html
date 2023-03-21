@@ -11,8 +11,7 @@
   <body>
     <nav>
       <ul id="top-nav">
-        <li class="logo">
-          <img src="images/logo.avif"  /> La Pizza</li>
+        <li class="logo"><img src="images/logo.avif" /> La Pizza</li>
         <li>
           <a href="./home.html"> HOME</a>
         </li>
@@ -27,15 +26,15 @@
         </li>
       </ul>
     </nav>
-    <h1>Faça aqui o seu pedido</h1>
-    <form>
-      <label for="name">Nome</label>
+    <h1 class="make-order">Faça aqui o seu pedido</h1>
+    <form class="pizza-order-form">
+      <label for="name">Nome :</label>
       <input type="text" name="name" />
       <br />
-      <label for="phone">Telefone</label>
+      <label for="phone">Telefone :</label>
       <input type="tel" name="telefone" />
       <br />
-      <label for="address">Endereço de entrega</label>
+      <label for="address">Endereço de entrega :</label>
       <input type="text" name="addres" />
       <br />
       <label for="massa">Tipo da massa:</label>
@@ -109,6 +108,13 @@
         <option value="2">02</option>
         <option value="3">03</option>
       </select>
+      <br />
+      <input
+        type="submit"
+        name="submit"
+        value="Fazer Meu Pedido"
+        class="order-button"
+      />
     </form>
   </body>
   <footer>

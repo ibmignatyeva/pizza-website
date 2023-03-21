@@ -11,9 +11,8 @@
   <body>
     <nav>
       <ul id="top-nav">
-         <li class="logo">
-          <img src="images/logo.avif"  /> La Pizza</li>
-        <li>
+        <li class="logo"><img src="images/logo.avif" /> La Pizza</li>
+        <li></li>
         <li>
           <a href="./home.html"> HOME</a>
         </li>
@@ -28,7 +27,24 @@
         </li>
       </ul>
     </nav>
-    <h1>Entre em contato</h1>
+    <h1 class="contact-us">Entre em contato</h1>
+    <main>
+      <form class="contact-form">
+        <label for="name"> Nome : </label>
+        <input type="text" name="name" />
+        <br />
+        <label for="email"> E-mail : </label>
+        <input type="email" name="email" />
+        <br />
+        <label for="phone"> Telefone : </label>
+        <input type="number" name="phone" />
+        <br />
+        <label for="message"> Mensagem : </label>
+        <textarea cols="35" rows="10"> </textarea>
+        <br />
+        <input type="submit" name="submit" value="Enviar" class="contact-button" />
+      </form>
+    </main>
   </body>
   <footer>
     <p>&copy La Pizza. Since 2023</p>
