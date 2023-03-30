@@ -16,7 +16,7 @@ html {
   background-image: url(../images/background\ transparente.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width:100vw;
+  max-width: 100vw;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
- 
 }
 
 table,
@@ -37,46 +36,44 @@ th {
 }
 table {
   margin-left: 35px;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+}
 
-}
-.delivery-phone {
-  font-size: 22px;
-  margin-top: 50px;
-}
 footer {
   margin-top: 100px;
   padding: 80px;
   line-height: 2;
-  width:100%
+  width: 100%;
+  background-color: var(--main-color);
+  font-size: 1.6rem;
+  color: var(--main-font-color);
 }
 footer a {
   padding: 25px;
-  text-decoration: none;
   color: var(--main-font-color);
 }
-footer,
-#top-nav,
-#top-nav a {
-  background-color: var(--main-color);
+
+.menu,
+.menu a,
+.brand-name {
   color: var(--main-font-color);
-  font-size: 1.6rem;
+  font-size: 2rem;
+  padding: 10px 5px;
 }
-#top-nav {
-  list-style: none;
+.menu {
   display: flex;
-
-  padding: 15px;
-  justify-content: flex-end;
-  gap:35px;
-  
+  gap: 3rem;
+  align-items: center;
+  font-weight: bold;
 }
-.top-nav{
-  width:100%;
-
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: var(--main-color);
 }
 
-#top-nav a:hover,
+.menu a:hover,
 footer a:hover {
   cursor: pointer;
   transition: ease-in-out 0.2ms;
@@ -85,23 +82,22 @@ footer a:hover {
   padding: 10px;
   border-radius: 25px;
 }
-.logo {
-  font-size: 2.2rem;
 
- 
-}
-.logo img {
+.logo {
   height: 6rem;
   width: 6rem;
+  border-radius: 15px;
 }
-#top-nav a {
-  text-decoration: none;
-  font-weight: bold;
+.logo,
+.brand-name {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
 }
 
-.full-menu{
-  display:flex;
-  flex-direction:column;
+.full-menu {
+  display: flex;
+  flex-direction: column;
 }
 .pizza img,
 .bebidas img {
@@ -116,7 +112,6 @@ footer a:hover {
   font-weight: bold;
 }
 
-
 .main-page-figures img {
   border-radius: 100px;
   padding: 50px;
@@ -130,7 +125,7 @@ footer a:hover {
 .make-order,
 .contact-us {
   font-size: 5.1rem;
-  margin: 8rem;
+  margin: 6rem;
 }
 
 .main-about h2 {
@@ -154,9 +149,7 @@ footer a:hover {
   margin-left: 10rem;
   background: var(--secondary-color);
   padding: 20px;
-  
 }
-
 
 .order-button,
 .contact-button {
@@ -167,4 +160,9 @@ footer a:hover {
   font-weight: bold;
   margin-top: 5rem;
   margin-bottom: 3rem;
+}
+
+.delivery-phone {
+  font-size: 22px;
+  margin-top: 50px;
 }

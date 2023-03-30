@@ -8,55 +8,56 @@
     <link rel="icon" href="/images/logo.avif" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/reset.css" />
+       <link rel="stylesheet" href="./src/responsive.css">
   </head>
   <body>
-    <nav class="top-nav">
-      <ul id="top-nav">
-       <li class="logo">
-          <img src="images/logo.avif"/> La Pizza</li>
-        <li>
-        <li>
-          <a href="./home.html"> HOME</a>
-        </li>
-        <li>
-          <a href="./cardapio.html"> CARDÁPIO</a>
-        </li>
-        <li>
-          <a href="./contato.html"> CONTATO</a>
-        </li>
-        <li>
-          <a href="./pedido.html"> PEDIDO</a>
-        </li>
-      </ul>
-    </nav>
-
+    <div class="container">
+      <h2 class="brand-name">
+        <image
+          class="logo"
+          src="./images/logo.avif"
+          alt="la pizza logo"
+        ></image>
+        La Pizza
+      </h2>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="./home.html"> HOME</a>
+          </li>
+          <li>
+            <a href="./cardapio.html"> CARDÁPIO</a>
+          </li>
+          <li>
+            <a href="./contato.html"> CONTATO</a>
+          </li>
+          <li>
+            <a href="./pedido.html"> PEDIDO</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header>
       <h1 class="pizza-name">Pizzaria La Pizza</h1>
     </header>
     <main>
       <div class="main-about">
-       <h2>Sobre nós</h2>
-           <p>
-            Delectus odio optio dicta recusandae vitae? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Laudantium, assumenda? Vel
-            voluptatem illo minima similique ipsum reiciendis sapiente mollitia?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ad
-            cumque ratione voluptate rerum praesentium unde voluptas rem
-            blanditiis quod? Ad molestiae molestias iusto! Delectus odio optio
-         </p>
-       </div>
+        <h2>Sobre nós</h2>
+        <p>
+          Delectus odio optio dicta recusandae vitae? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Laudantium, assumenda? Vel voluptatem
+          illo minima similique ipsum reiciendis sapiente mollitia? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Placeat ad cumque ratione
+          voluptate rerum praesentium unde voluptas rem blanditiis quod? Ad
+          molestiae molestias iusto! Delectus odio optio
+        </p>
+      </div>
     </main>
-    </div>
+
     <figure class="main-page-figures">
-      <img
-        src="./images/chef making pizza.jpg"
-        alt="chef making pizza"/>
-        
-      <img
-        src="./images/hands on pizza.jpg"
-        alt="hand on pizza"
-      
-      />
+      <img src="./images/chef making pizza.jpg" alt="chef making pizza" />
+
+      <img src="./images/hands on pizza.jpg" alt="hand on pizza" />
     </figure>
   </body>
   <footer>
@@ -64,8 +65,8 @@
     <p>Address: 1030 Green Avenue, USA. Zip 65129</p>
     <p>
       <span><a href="#" target="_blank">Fale Conosco</a></span>
-      <span><a href="#"target="_blank">Política de Privacidade</a></span>
-      <span> <a href="#" target="_blank">Termos de Uso</a></span>
+      <span><a href="#" target="_blank">Política de Privacidade</a></span>
+      <span class="termo"> <a href="#" target="_blank">Termos de Uso</a></span>
     </p>
   </footer>
 </html>

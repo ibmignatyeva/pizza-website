@@ -1,0 +1,26 @@
+@media (max-width: 650px) {
+  .container,
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-top: 15px;
+  }
+  .menu li{
+    padding:15px 0;
+  }
+  .menu li a{
+    font-size:18px;
+    padding:17px 30px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+  }
+  footer .termo{
+display:block;
+  }
+
+
+}

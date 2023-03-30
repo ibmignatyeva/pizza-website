@@ -7,28 +7,31 @@
     <title>Contato</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/reset.css" />
+       <link rel="stylesheet" href="./src/responsive.css">
   </head>
   <body>
-    <nav class="top-nav">
-      <ul id="top-nav">
-        <li class="logo"><img src="images/logo.avif" /> La Pizza</li>
-        <li></li>
+    <div class="container">
+      <h2 class="brand-name"><image class="logo" src="./images/logo.avif" alt="la pizza logo" ></image> La Pizza</h2>
+    <nav>
+      <ul class="menu">
+       
         <li>
           <a href="./home.html"> HOME</a>
         </li>
-        <li>
+        <li >
           <a href="./cardapio.html"> CARDÁPIO</a>
         </li>
-        <li>
+        <li >
           <a href="./contato.html"> CONTATO</a>
         </li>
-        <li>
+        <li >
           <a href="./pedido.html"> PEDIDO</a>
         </li>
       </ul>
     </nav>
-    <header> 
-    <h1 class="contact-us">Entre em contato</h1>
+</div>
+    <header>
+      <h1 class="contact-us">Entre em contato</h1>
     </header>
     <main>
       <form class="contact-form">
@@ -39,12 +42,17 @@
         <input type="email" name="email" />
         <br />
         <label for="phone"> Telefone : </label>
-        <input type="number" name="phone" />
+        <input type="tel" name="phone" />
         <br />
         <label for="message"> Mensagem : </label>
         <textarea cols="35" rows="10"> </textarea>
         <br />
-        <input type="submit" name="submit" value="Enviar" class="contact-button" />
+        <input
+          type="submit"
+          name="submit"
+          value="Enviar"
+          class="contact-button"
+        />
       </form>
     </main>
   </body>
@@ -54,7 +62,7 @@
     <p>
       <span><a href="#">Fale Conosco</a></span>
       <span><a href="#">Política de Privacidade</a></span>
-      <span> <a href="#">Termos de Uso</a></span>
+      <span class="termo"> <a href="#">Termos de Uso</a></span>
     </p>
   </footer>
 </html>
