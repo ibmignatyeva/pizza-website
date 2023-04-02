@@ -1,13 +1,8 @@
-@media (max-width: 660px) {
+@media (max-width: 650px) {
   .container,
-  .menu
- {
+  .menu {
     flex-direction: column;
-max-width:100%;
-padding:0;
-margin:0;
-  
-     }
+  }
 
   .menu {
     margin-top: 15px;
@@ -20,50 +15,12 @@ margin:0;
     padding:17px 30px;
   }
 
-
-  footer .termo,
-  footer .fale-conosco,
-  footer .privacidade{
+  .brand-name {
+    font-size: 18px;
+  }
+  footer .termo{
 display:block;
-
   }
 
-.brand-name,
-.logo{
-  justify-content:center;
-
-}
-
-.make-order,
-.menu ,
-.pizza-order-form,
-.contact-form,
-.contact-us
-{
-  font-size:1.5rem;
-  margin:0;
-  padding:0;
-  margin-top:2rem;
-}
-
-.order-button,
-.contact-button{
-  font-size:1.5rem;
-}
-
-
-.pizza-order-form,
-.contact-form {
-  width:40rem;
-}
-.main-page-figures{
-  display: none;
-}
-.full-menu .pizza,
-.full-menu .bebidas{
-  width:10rem;
-  font-size:1.3rem;
-
-}
 
 }
