@@ -69,7 +69,6 @@
   }
   .full-menu .pizza,
   .full-menu .bebidas {
-    width: 2rem;
     font-size: 1rem;
   }
   .make-order,
@@ -81,17 +80,16 @@
     margin-top: 2rem;
   }
   .full-menu .bebidas {
-    margin-left: 15rem;
+    margin-left: 13rem;
   }
   .full-menu .pizza {
     margin-top: 2.5rem;
-   
-  
+    width: 90%;
   }
 
-  .pizza img,
-  .bebidas img {
-    width: 2rem;
+  .full-menu .pizza img,
+  .full-menu .bebidas img {
+    width: 3rem;
     height: 4rem;
   }
 }
