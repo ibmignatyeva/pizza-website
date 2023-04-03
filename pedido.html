@@ -7,130 +7,134 @@
     <title>Pedido</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/reset.css" />
-       <link rel="stylesheet" href="./src/responsive.css">
+    <link rel="stylesheet" href="./src/responsive.css" />
   </head>
   <body>
-
-    
-     <div class="container">
-      <h2 class="brand-name"><image class="logo" src="./images/logo.avif" alt="la pizza logo" ></image> La Pizza</h2>
-    <nav>
-      <ul class="menu">
-       
-        <li>
-          <a href="./home.html"> HOME</a>
-        </li>
-        <li >
-          <a href="./cardapio.html"> CARDÁPIO</a>
-        </li>
-        <li >
-          <a href="./contato.html"> CONTATO</a>
-        </li>
-        <li >
-          <a href="./pedido.html"> PEDIDO</a>
-        </li>
-      </ul>
-    </nav>
-</div>
+    <div class="container">
+      <h2 class="brand-name">
+        <image
+          class="logo"
+          src="./images/logo.avif"
+          alt="la pizza logo"
+        ></image>
+        La Pizza
+      </h2>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="./home.html"> HOME</a>
+          </li>
+          <li>
+            <a href="./cardapio.html"> CARDÁPIO</a>
+          </li>
+          <li>
+            <a href="./contato.html"> CONTATO</a>
+          </li>
+          <li>
+            <a href="./pedido.html"> PEDIDO</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <h1 class="make-order">Faça aqui o seu pedido</h1>
-    <section id="order-form"> 
-    <form class="pizza-order-form">
-      <label for="name">Nome :</label>
-      <input type="text" name="name" />
-      <br />
-      <label for="phone">Telefone :</label>
-      <input type="tel" name="telefone" />
-      <br />
-      <label for="address">Endereço de entrega :</label>
-      <input type="text" name="addres" />
-      <br />
-      <label for="massa">Tipo da massa:</label>
-      <br />
-      <input type="radio" name="massa" id="massa-fina" />
-      <label for="massa">Massa Fina</label><br />
-      <input type="radio" name="massa" id="massa-tradicional" />
-      <label for="massa">Massa Tradicional</label>
-      <br />
-      <label for="sabor"> Selecione o Sabor:</label>
-      <select name="sabor" id="sabor">
-        <option value="">Selecione o sabor</option>
-        <option value="5-queijos">5 Queijos</option>
-        <option value="marguerita">Marguerita</option>
-        <option value="peperoni">Pepperoni</option>
-      </select>
-      <br />
-      <label for="tamanho"> Selecione o Tamanho:</label>
+    <section id="order-form">
+      <form class="pizza-order-form">
+        <label for="name">Nome :</label>
+        <input type="text" name="name" />
+        <br />
+        <label for="phone">Telefone :</label>
+        <input type="tel" name="telefone" />
+        <br />
+        <label for="address">Endereço de entrega :</label>
+        <input type="text" name="addres" />
+        <br />
+        <label for="massa">Tipo da massa:</label>
+        <br />
+        <input type="radio" name="massa" id="massa-fina" />
+        <label for="massa">Massa Fina</label><br />
+        <input type="radio" name="massa" id="massa-tradicional" />
+        <label for="massa">Massa Tradicional</label>
+        <br />
+        <label for="sabor"> Selecione o Sabor:</label>
+        <select name="sabor" id="sabor">
+          <option value="">Selecione o sabor</option>
+          <option value="5-queijos">5 Queijos</option>
+          <option value="marguerita">Marguerita</option>
+          <option value="peperoni">Pepperoni</option>
+        </select>
+        <br />
+        <label for="tamanho"> Selecione o Tamanho:</label>
 
-      <select name="tamanho" id="tamanho">
-        <option value="">Selecione o tamanho</option>
-        <option value="p">Pequena</option>
-        <option value="m">Média</option>
-        <option value="g">Grande</option>
-      </select>
-      <br />
-      <label for="bebida"> Bebida:</label>
-      <br />
-      <input type="checkbox" name="bebida" id="agua-com-gas" />
-      <label for="bebida">Água com gás</label>
-      <select name="quantidade" id="quantidade">
-        <option value="">Quantidade</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-      </select>
-      <br />
+        <select name="tamanho" id="tamanho">
+          <option value="">Selecione o tamanho</option>
+          <option value="p">Pequena</option>
+          <option value="m">Média</option>
+          <option value="g">Grande</option>
+        </select>
+        <br />
+        <label for="bebida"> Bebida:</label>
+        <br />
+        <input type="checkbox" name="bebida" id="agua-com-gas" />
+        <label for="bebida">Água com gás</label>
+        <select name="quantidade" id="quantidade">
+          <option value="">Quantidade</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+        </select>
+        <br />
 
-      <input type="checkbox" name="bebida" id="agua-sem-gas" />
-      <label for="bebida">Água sem gás</label>
-      <select name="quantidade" id="quantidade">
-        <option value="">Quantidade</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-      </select>
-      <br />
-      <input type="checkbox" name="bebida" id="refrigerante-em-lata" />
-      <label for="bebida">Refrigerante-em-lata</label>
-      <select name="quantidade" id="quantidade">
-        <option value="">Quantidade</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-      </select>
-      <br />
-      <input type="checkbox" name="bebida" id="suco-natural-em-copo" />
-      <label for="bebida">Suco natural em copo</label>
-      <select name="quantidade" id="quantidade">
-        <option value="">Quantidade</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-      </select>
-      <br />
-      <input type="checkbox" name="bebida" id="suco-natural-em-jarra" />
-      <label for="bebida">Suco Natural em jara</label>
-      <select name="quantidade" id="quantidade">
-        <option value="">Quantidade</option>
-        <option value="1">01</option>
-        <option value="2">02</option>
-        <option value="3">03</option>
-      </select>
-      <br />
-      <input
-        type="submit"
-        name="submit"
-        value="Fazer Meu Pedido"
-        class="order-button"
-      />
-    </form>
-  </section>
+        <input type="checkbox" name="bebida" id="agua-sem-gas" />
+        <label for="bebida">Água sem gás</label>
+        <select name="quantidade" id="quantidade">
+          <option value="">Quantidade</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+        </select>
+        <br />
+        <input type="checkbox" name="bebida" id="refrigerante-em-lata" />
+        <label for="bebida">Refrigerante-em-lata</label>
+        <select name="quantidade" id="quantidade">
+          <option value="">Quantidade</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+        </select>
+        <br />
+        <input type="checkbox" name="bebida" id="suco-natural-em-copo" />
+        <label for="bebida">Suco natural em copo</label>
+        <select name="quantidade" id="quantidade">
+          <option value="">Quantidade</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+        </select>
+        <br />
+        <input type="checkbox" name="bebida" id="suco-natural-em-jarra" />
+        <label for="bebida">Suco Natural em jara</label>
+        <select name="quantidade" id="quantidade">
+          <option value="">Quantidade</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+        </select>
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Fazer Meu Pedido"
+          class="order-button"
+        />
+      </form>
+    </section>
   </body>
   <footer>
     <p>&copy La Pizza. Since 2023</p>
     <p>Address: 1030 Green Avenue, USA. Zip 65129</p>
     <p>
-      <span><a href="#">Fale Conosco</a></span>
-      <span><a href="#">Política de Privacidade</a></span>
+      <span class="fale-conosco"><a href="#">Fale Conosco</a></span>
+      <span class="privacidade"><a href="#">Política de Privacidade</a></span>
       <span class="termo"> <a href="#">Termos de Uso</a></span>
     </p>
   </footer>
