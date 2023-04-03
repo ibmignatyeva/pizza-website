@@ -83,10 +83,13 @@
   .full-menu .bebidas {
     margin-left: 10rem;
   }
+  .full-menu .pizza {
+    margin-top: 2.5rem;
+  }
 
   .pizza img,
   .bebidas img {
-    width: 3rem;
+    width: 2rem;
     height: 4rem;
   }
 }
