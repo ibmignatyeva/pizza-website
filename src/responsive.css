@@ -58,3 +58,31 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 576px) {
+  .pizza-order-form,
+  .contact-form {
+    width: 20rem;
+  }
+  .main-page-figures {
+    display: none;
+  }
+  .full-menu .pizza,
+  .full-menu .bebidas {
+    width: 8rem;
+    font-size: 1rem;
+  }
+  .make-order,
+  .menu,
+  .pizza-order-form,
+  .contact-form,
+  .contact-us {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  .full-menu .bebidas {
+    margin-left: 8.5rem;
+  }
+}
